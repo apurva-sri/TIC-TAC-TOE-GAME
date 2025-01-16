@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+h2{
+    background-color: #265a5b;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+#msg{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 6vmin;
+    
+}
+.hide{
+    display: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:darkcyan ;
+    border-radius: 1rem;
+    border-radius: none;
+    box-shadow: 0 0 12px black;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2rem; */
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;    
+    box-shadow: 0 0 1rem rgba(1, 1, 1, 2);
+    font-size: 8vmin; 
+    color:#b0413e ;
+}
+.players{
+    margin-left: 2rem;
+    height: 19vh;
+    width: 30vw;
+    /* background-color:aliceblue; */
+    /* display: flex;/ */
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+}
+.score{
+    height: 5vh;
+    width: 30vw;
+    /* background-color: blanchedalmond; */
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+.winTime{
+    /* margin-top: 5vh; */
+    height: 5vh;
+    width: 30vw;
+    /* background-color: #b0413e; */
+    display: flex;
+}
+.PL{
+    height: 5vh;
+    width: 15vw;
+    border: 2px solid black;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayScore{
+    height: 5vh;
+    width: 30vw;
+    background-color: rgb(61, 116, 116);
+    display: flex;
+    font-size: 2rem;
+}
+.DS{
+    height: 5vh;
+    width: 15vw;
+    border: 2px solid black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color:darkcyan ;
+    border-radius: 1rem;
+    border-radius: none;
+    box-shadow: 0 0 12px black;
+
+}
+.moves{
+    height: 5vmin;
+    margin-top: 1rem;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+.undo{
+    margin-top: 10vh;
+    padding: 1.5vh;
+    background-color:darkcyan ;
+    box-shadow: 0 0 20px black;
+    border-radius: 50%;
+}
+footer{
+    margin-top: 3rem;    
+    /* padding: 5vh; */
+    background-color: #265a5b;
+}
